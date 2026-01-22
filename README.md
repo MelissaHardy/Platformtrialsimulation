@@ -3,4 +3,4 @@
 # Platformtrialsimulation
 This repository contains R code to simulate a parallel and staggered platform trial and staggered two-arm stand-alone randomised controlled trials (RCT) using a non-inferiority hypothesis test.
 
-There are seperate configuration files for traditional two-arm RCTs (trct), platform trials (pt), Scenario A (Non-inferiority margin 15%) and B (Non-inferiority margin 20%) and platform trials with an unequal allocation ratio (2:1:1:1:1).
+There are seperate configuration files for traditional two-arm RCTs (trct), platform trials (pt), platform trials with an unequal allocation ratio (2:1:1:1:1), Scenario A (Non-inferiority margin 15%) and B (Non-inferiority margin 20%).
