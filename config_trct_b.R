@@ -12,7 +12,7 @@ true_rd <- death1 - death0 # True risk difference
 ni_margin <- 0.15 # non-inferiority margin
 death_alt <- death0 + ni_margin  # Experimental treatment is inferior (worse outcome rate)
 mean_sites_per_month <- 10 # mean number of sites activated per month
-max_sites <- 200 # maximimum number of sites for the trial
+max_sites <- 200 # maximum number of sites for the trial
 mean_patients_per_site_per_year <- 2 # mean number of patients recruited per site per year
 nSims <- 10000 # number of trials to simulate
 
