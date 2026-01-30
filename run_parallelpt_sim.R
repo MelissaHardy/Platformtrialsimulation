@@ -1,13 +1,13 @@
 ################################################################################################################
 ############################# R Script to run the Parallel Platform Trial simulation #########################
 ################################################################################################################
-# This code will simulate multiple 5-arm non-inferiority randomised controlled platform trial using 1:1 allocation 
-# of participants to treatment 0 ("best available therapy") versus treatment 1 versus treatment 2 versus treatment 3 and treatment 4
+# This code will simulate a 5-arm non-inferiority randomised controlled platform trial using 1:1 allocation 
+# of participants to treatment 0 ("best available therapy") versus treatments 1 - 4
 # The primary outcome is "all-cause mortality at 28 days" after randomisation
-# Patients receiving treatment 0 and treatment 1-4 will have a probability of mortality as outlined in the configuration
+# Patients receiving treatment 0 and treatments 1-4 will have a probability of mortality as outlined in the configuration
 # Analysis will be performed with a estimated absolute risk difference in the proportion of participants
-# with death between the investigational agent and control with no covariate adjustment
-# We will run 1000 simulated RCT's and store the risk difference, 95% confidence interval, and success vs. the noninferiority margin for each trial
+# with death between the treatments 1-4 and control with no covariate adjustment
+# We will run 1000 / 10,000 simulated RCT's and store the risk difference, 95% confidence interval, and success vs. the noninferiority margin for each trial
 # We will also estimate the total duration of the trial based on the number of sites activated per month and
 # the number of patients recruited per year
 
